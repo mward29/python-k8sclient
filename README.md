@@ -11,7 +11,7 @@ python setup.py install
 Or you can install from Github via pip:
 
 ```sh
-pip install git+https://github.com/geekerzp/swagger_client.git
+pip install git+https://github.com/mward29/python-k8sclient.git
 ```
 
 To use the bindings, import the pacakge:
