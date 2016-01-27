@@ -1,6 +1,9 @@
 ## Requirements.
 Python 2.7 and later.
 
+## Notes
+Based on Kubernetes 1.1.3. v1.json modified slightly to replace "type": "any" with "type": "string". Not fully tested but is working quite well to this point.
+
 ## Setuptools
 You can install the bindings via [Setuptools](http://pypi.python.org/pypi/setuptools).
 
@@ -14,7 +17,7 @@ Or you can install from Github via pip:
 pip install git+https://github.com/mward29/python-k8sclient.git
 ```
 
-To use the bindings, import the pacakge:
+To use the bindings, import the package:
 
 ```python
 import swagger_client
@@ -27,14 +30,6 @@ Then, to use the bindings, import the package:
 ```python
 import path.to.swagger_client
 ```
-
-## Getting Started
-
-TODO
-
-## Documentation
-
-TODO
 
 ## Tests
 
