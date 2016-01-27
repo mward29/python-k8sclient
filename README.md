@@ -2,7 +2,7 @@
 Python 2.7 and later.
 
 ## Notes
-Based on Kubernetes 1.1.3. v1.json modified slightly to replace "type": "any" with "type": "string". Not fully tested but is working quite well to this point.
+Based on Kubernetes 1.1.3. Should be a fully functional python interface to the Kubernetes API. v1.json modified slightly to replace "type": "any" with "type": "string". Not fully tested but is working quite well to this point.
 
 ## Setuptools
 You can install the bindings via [Setuptools](http://pypi.python.org/pypi/setuptools).
