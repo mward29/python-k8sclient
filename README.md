@@ -31,7 +31,6 @@ Then, to use the bindings, import the package:
 import path.to.swagger_client
 ```
 
-<<<<<<< HEAD
 ## Getting Started
 
 TODO
@@ -1113,8 +1112,6 @@ watch_service_list():
     watch individual changes to a list of Service
 
 
-=======
->>>>>>> c06abede3d3fad7ec27bd9fff0a222a7dcc68a92
 ## Tests
 
 (Please make sure you have [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/) installed)
