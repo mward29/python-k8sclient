@@ -1,6 +1,9 @@
 ## Requirements.
 Python 2.7 and later.
 
+## Notes
+Based on Kubernetes 1.1.3. Should be a fully functional python interface to the Kubernetes API. v1.json modified slightly to replace "type": "any" with "type": "string". Not fully tested but is working quite well to this point.
+
 ## Setuptools
 You can install the bindings via [Setuptools](http://pypi.python.org/pypi/setuptools).
 
@@ -11,10 +14,10 @@ python setup.py install
 Or you can install from Github via pip:
 
 ```sh
-pip install git+https://github.com/geekerzp/swagger_client.git
+pip install git+https://github.com/mward29/python-k8sclient.git
 ```
 
-To use the bindings, import the pacakge:
+To use the bindings, import the package:
 
 ```python
 import swagger_client
@@ -28,6 +31,7 @@ Then, to use the bindings, import the package:
 import path.to.swagger_client
 ```
 
+<<<<<<< HEAD
 ## Getting Started
 
 TODO
@@ -1109,6 +1113,8 @@ watch_service_list():
     watch individual changes to a list of Service
 
 
+=======
+>>>>>>> c06abede3d3fad7ec27bd9fff0a222a7dcc68a92
 ## Tests
 
 (Please make sure you have [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/) installed)
